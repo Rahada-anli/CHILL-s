@@ -1,0 +1,9 @@
+
+
+
+/*responisve telephone */ 
+@media screen and (max-width: 767px) {
+    .text_info{
+        width: 22em;
+    }
+}

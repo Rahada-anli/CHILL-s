@@ -1,0 +1,383 @@
+/*neumorphism.io*/
+
+/*css en animation est couleur pour que sa soit plus styliser  */
+
+
+/*personalisation */ 
+
+body{
+    background: radial-gradient(circle, #333333,#151515) !important;
+     font-family: "Montserrat", sans-serif !important;
+}
+
+h2{
+     font-family: "Montserrat Alternates", sans-serif !important;
+
+}
+.gras{
+    font-weight: 900 !important;
+}
+.gras2{
+    font-weight: 800 !important;
+}
+
+
+.coustom_text{
+        font-size: 6.5em;    
+}
+
+.coustom_text_2{
+    font-size: 1.15em !important; 
+}
+
+.coustom_img{
+    width: 25em;
+}
+
+.coustom_top1{
+    top: 50%;
+} 
+
+.coustom_start{
+        left: 46%
+}
+
+.coustom_top{
+    top: 43.2% ;
+}
+
+.coustom_height{
+    height:25em ;
+}
+
+.coustom_top2{
+
+    top: 46%;
+}
+.coustom_top3{
+    top: 50% ;
+}
+
+
+
+
+
+
+/*animation hover button */ 
+
+
+.btn_animation:hover{
+    color: rgb(29, 30, 30) !important;
+    background-color: aliceblue !important;
+    transition: all 1s;
+}
+.btn_animation2:hover{
+    color: #ec4545 !important;
+    background-color: rgb(255, 255, 255) !important;
+    transition: all 1s;
+}
+.btn_animation3:hover{
+    color: rgb(52, 211, 113) !important;
+    background-color: rgb(240, 255, 253) !important;
+    transition: all 1s;
+}
+
+
+.btn_animation4{
+
+    color: rgb(255, 255, 255) !important;
+    background: linear-gradient(90deg, #494949 , #494949) !important;
+    width: 8.5em;
+    transition: all 1s ease !important;
+
+    &:hover{
+    width: 9em;
+        color: rgb(255, 255, 255) !important;
+        background: linear-gradient(90deg, #8091EF , #E5521C) !important;
+    }
+
+}
+
+.btn_animation5:hover{
+    color: #3891AE !important;
+    background-color: rgb(240, 255, 253) !important;
+    transition: all 1s;
+}
+
+.btn_animation6:hover{
+    color: #6185BE !important;
+    background-color: rgb(255, 255, 255) !important;
+    transition: all 1s;
+    
+}
+
+.btn_animation7:hover{
+    color: #ffffff !important;
+    background-color: #40587F !important;
+    transition: all 1s;
+    
+}
+
+
+.btn_animation8:hover{
+    color: #ceaa34 !important;
+    background-color: #f0fffd !important;
+    transition: all 1s;
+}
+.btn_animation9:hover{
+    color: #ffffff !important;
+    background-color: #D8121C !important;
+    transition: all 1s;  
+}
+
+.btn_animation10:hover{
+    color: #ffffff !important;
+    background-color: #227E85 !important;
+    transition: all 1s;
+}
+.btn_animation11:hover{
+    color: #227E85 !important;
+    background-color: #f0fffd !important;
+    transition: all 1s;
+}
+
+.btn_animation12:hover{
+    color: #D8121C !important;
+    background-color: #ffffff !important;
+    transition: all 1s;  
+}
+
+
+.btn_animation13:hover{
+    color: #ffffff !important;
+    background-color: #ceaa34 !important;
+    transition: all 1s;
+}
+.btn_animation14:hover{
+    color: #ffffff !important;
+    background-color: #902AE9 !important;
+    transition: all 1s;
+}
+
+.btn_animation15:hover{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(4, 114, 46) !important;
+    transition: all 1s;
+}
+
+.btn_animation16:hover{
+    color: #ffffff !important;
+    background-color: #FA8433 !important;
+    transition: all 1s;
+}
+
+.btn_animation17:hover{
+    color: #FA8433 !important;
+    background-color: #ffffff !important;
+    transition: all 1s; 
+}
+
+
+.btn_animation19:hover{
+    color: #09A8EE !important;
+    background-color: #ffffff !important;
+    transition: all 1s;  
+}
+
+.btn_animation20:hover{
+    color: #FE4884 !important;
+    background-color: #ffffff !important;
+    transition: all 1s;  
+}
+.btn_animation21:hover{
+    color: #ffffff !important;
+    background-color: #FF6296 !important;
+    transition: all 1s;  
+}
+
+.a_link{
+        border-radius: 15px;
+        &:hover{
+        color: rgb(26, 26, 26) !important;
+        background-color: rgb(246, 246, 246) ;
+        border-radius: 15px;
+        padding-left: 5px;
+        transition: all 1s;
+        text-shadow: 3px 0px 7px rgb(255, 255, 255);
+    }
+}
+
+
+.animation_youtube:hover{
+
+    color: rgb(255, 0, 4) !important;
+    transition: all 1s;
+     text-shadow: 3px 0px 7px rgb(236, 0, 55);
+}
+
+.animation_linkedin:hover{
+
+    color: rgb(0, 149, 255) !important;
+    transition: all 1s;
+     text-shadow: 3px 0px 7px rgb(0, 134, 236);
+
+}
+
+.animation_instagram:hover{
+
+    color: rgb(255, 0, 119) !important;
+    transition: all 1s;
+     text-shadow: 3px 0px 7px rgb(236, 0, 138);
+
+}
+.animation_snapchat:hover
+{
+
+    color: rgb(255, 238, 0) !important;
+    transition: all 1s;
+     text-shadow: 3px 0px 7px rgb(236, 224, 0);
+
+}
+
+.amina_slide_inline_gauche{
+    animation: slide_inline 4s ease-in-out;
+    animation-timeline: view();
+    animation-range-start: cover 0%;
+    animation-range-end: cover 30%;
+}
+
+.amina_slide_inline_groit{
+    animation:slide_inline_droit 4s ease-in-out;
+    animation-timeline: view();
+    animation-range-start: cover 0%;
+    animation-range-end: cover 30%;
+
+}
+
+
+.animation_scale{
+
+       transition: transform 200ms, 150ms;
+
+  &:hover{
+  
+    transition: transform 100ms;
+    transform: scale(1.1);
+
+  }
+}
+
+
+
+/*animation*/
+
+
+
+@keyframes slide_inline {
+    
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes slide_inline_droit {
+    
+    from{ 
+        transform: translateX(300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+
+/*responsive tablette */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) 
+{
+    .coustom_text{
+        font-size: 4em;
+    }
+    .coustom_img
+    {
+         width: 15em;
+    }
+
+    .coustom_top1{
+        top: 30%;
+    } 
+
+    .coustom_start{
+            left: 56%
+    }
+    .coustom_top{
+            top: 45.8% ;
+    }
+    
+    .coustom_text_2{
+            font-size: 1em !important; 
+    }
+    .coustom_height{
+         height:15em ;
+    }
+
+    .coustom_top3{
+
+        top: 90% ;
+    }
+   
+}
+
+
+/*responisve telephone */ 
+@media screen and (max-width: 767px)
+{
+    .coustom_text{
+        font-size: 2.5em;
+    }
+    .coustom_img
+    {
+         width: 10em;
+    }
+
+    .mg_left{
+
+        margin-left: -1.5em;
+    }
+
+    .coustom_top1{
+        top: 25%;
+    } 
+
+    .coustom_start{
+            left: 56%
+    }
+     .coustom_top{
+            top: 70.8% ;
+    }
+    .coustom_top2{
+        top: 105%;
+    }
+    
+    .coustom_top3{
+
+        top: 80% ;
+    }
+    
+    .coustom_text_2{
+            font-size: 0.9em !important; 
+    }
+    .coustom_height{
+         height:9em ;
+    }
+
+    .coustom_margin_top{
+
+        margin-top: 6.5em;
+    }
+}

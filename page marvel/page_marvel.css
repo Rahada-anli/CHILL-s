@@ -1,0 +1,28 @@
+.coustom_img3 {
+
+  width: 36em;
+}
+
+
+
+
+/*responisve telephone */ 
+@media screen and (max-width: 767px)
+{
+  
+    .coustom_img3
+    {
+         width: 20em;
+    }
+
+  }
+
+/*responsive tablette */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) 
+{    .coustom_img3
+    {
+         width: 20em;
+    }
+
+  }
